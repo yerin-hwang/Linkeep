@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">LinKeep</string>
+    <string name="app_name">Linkeep</string>
+
+    <!-- 모든 화면에서 사용할 문자열 -->
+    <string name="hashtag">Hashtag</string>
+
+    <!-- activity_new_link.xml -->
+    <string name="new_text_newlink">New Link</string>
+    <string name="new_text_thumbnail">Thumbnail</string>
+    <string name="new_btn_gallery">Gallery</string>
+    <string name="new_btn_webpage">Web Page</string>
+    <string name="new_btn_add">ADD</string>
 </resources>
