@@ -29,7 +29,7 @@
                 android:background="@drawable/rounded_layout_primary">
 
             <TextView
-                    android:id="@+id/new_textNewLink"
+                    android:id="@+id/new_text_new_link"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
@@ -38,12 +38,12 @@
                     android:text="@string/new_text_newlink"
                     android:textColor="@color/textColorPrimary"
                     android:textSize="24sp"
-                    app:layout_constraintBottom_toTopOf="@id/new_layout_newlink"
+                    app:layout_constraintBottom_toTopOf="@id/new_text_edit_link"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                    android:id="@+id/new_copyLink"
+                    android:id="@+id/new_btn_paste_link"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="18dp"
@@ -52,41 +52,36 @@
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                    android:id="@+id/new_layout_newlink"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginBottom="16dp"
-                    android:background="@drawable/rounded_layout_accent"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintHorizontal_bias="1.0"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/new_copyLink">
-
-                <EditText
-                        android:id="@+id/new_editText"
-                        android:layout_width="match_parent"
-                        android:layout_height="70dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:ems="10"
-                        android:gravity="center|start"
-                        android:importantForAutofill="no"
-                        android:inputType="textMultiLine"
-                        android:text="https://www.figma.com/file/xbEgRGdnoC6YFqm0EkO4WT/Linkeep?node-id=10%3A8"
-                        android:textAlignment="textStart"
-                        android:textColor="@color/textColorPrimary"
-                        android:textSize="16sp"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"
-                        tools:ignore="LabelFor" />
-
-            </androidx.constraintlayout.widget.ConstraintLayout>
+            <EditText
+                android:id="@+id/new_text_edit_link"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/rounded_layout_accent"
+                android:cursorVisible="true"
+                android:textCursorDrawable="@drawable/edit_text_cursor"
+                android:ellipsize="end"
+                android:gravity="center|start"
+                android:importantForAutofill="no"
+                android:includeFontPadding="true"
+                android:inputType="textUri|textMultiLine"
+                android:maxLines="3"
+                android:overScrollMode="ifContentScrolls"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:selectAllOnFocus="true"
+                android:text="https://www.figma.com/file/xbEgRGdnoC6YFqm0EkO4WT/Linkeep?node-id=10%3A8https://www.figma.com/file/xbEgRGdnoC6YFqm0EkO4WT/Linkeep?node-id=10%3A8"
+                android:textAlignment="viewStart"
+                android:textColor="@color/textColorPrimary"
+                android:textColorHighlight="@color/textColorAccent"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/new_btn_paste_link" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -100,7 +95,7 @@
                 android:background="@drawable/rounded_layout_primary">
 
             <TextView
-                    android:id="@+id/new_textHashtag"
+                    android:id="@+id/new_text_hashtag"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
@@ -112,7 +107,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                    android:id="@+id/new_addHashtag"
+                    android:id="@+id/new_btn_add_hashtag"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_marginTop="18dp"
@@ -132,7 +127,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/new_addHashtag" />
+                    app:layout_constraintTop_toBottomOf="@id/new_btn_add_hashtag" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -147,7 +142,7 @@
                 android:background="@drawable/rounded_layout_primary">
 
             <TextView
-                    android:id="@+id/new_textThumbnail"
+                    android:id="@+id/new_text_thumbnail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="18dp"
@@ -165,7 +160,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/new_textThumbnail"
+                    app:layout_constraintTop_toBottomOf="@+id/new_text_thumbnail"
                     app:layout_constraintVertical_bias="0.0">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -178,7 +173,7 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                     <ImageView
-                            android:id="@+id/imageView2"
+                            android:id="@+id/new_img_gallery"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="6dp"
@@ -207,7 +202,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
-                        android:id="@+id/new_btn_webpage"
+                        android:id="@+id/new_btn_web_page"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -216,7 +211,7 @@
                         app:layout_constraintTop_toTopOf="parent">
 
                     <ImageView
-                            android:id="@+id/imageView3"
+                            android:id="@+id/new_img_web_page"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="6dp"
@@ -224,13 +219,13 @@
                             android:layout_marginEnd="3dp"
                             android:layout_marginBottom="8dp"
                             app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toStartOf="@+id/new_text_btn_webpage"
+                            app:layout_constraintEnd_toStartOf="@+id/new_text_btn_web_page"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
                             app:srcCompat="@drawable/ic_crop" />
 
                     <TextView
-                        android:id="@+id/new_text_btn_webpage"
+                        android:id="@+id/new_text_btn_web_page"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="8dp"
@@ -245,7 +240,7 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <ImageView
-                        android:id="@+id/imageView"
+                        android:id="@+id/new_img_thumbnail"
                         android:layout_width="240dp"
                         android:layout_height="180dp"
                         android:layout_marginLeft="8dp"

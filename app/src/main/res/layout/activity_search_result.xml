@@ -44,7 +44,7 @@
             android:background="@drawable/rounded_layout_primary">
 
             <TextView
-                android:id="@+id/new_textHashtag"
+                android:id="@+id/new_text_hashtag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
@@ -56,7 +56,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/new_addHashtag"
+                android:id="@+id/new_btn_add_hashtag"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="18dp"
@@ -76,7 +76,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/new_addHashtag" />
+                app:layout_constraintTop_toBottomOf="@id/new_btn_add_hashtag" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -124,8 +124,8 @@
                 android:layout_marginBottom="16dp"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toTopof="@+id/resultimage"/>
+                app:layout_constraintTop_toTopOf="parent"/>
+<!--                app:layout_constraintBottom_toTopof="@+id/resultimage"-->
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/resultimage"
@@ -141,7 +141,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/ic_arrow_back"
-                    app:layout_constraintRight_toLeftOf="@+id/imageView"
+                    app:layout_constraintRight_toLeftOf="@+id/new_img_thumbnail"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"/>
@@ -151,13 +151,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:srcCompat="@drawable/ic_arrow_forward"
-                    app:layout_constraintLeft_toRightOf="@+id/imageView"
+                    app:layout_constraintLeft_toRightOf="@+id/new_img_thumbnail"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintBottom_toBottomOf="parent"/>/>
 
                 <ImageView
-                    android:id="@+id/imageView"
+                    android:id="@+id/new_img_thumbnail"
                     android:layout_width="240dp"
                     android:layout_height="180dp"
                     android:contentDescription="TODO"
