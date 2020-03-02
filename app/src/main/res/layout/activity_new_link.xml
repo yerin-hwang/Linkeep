@@ -240,20 +240,21 @@
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <ImageView
-                        android:id="@+id/new_img_thumbnail"
-                        android:layout_width="240dp"
-                        android:layout_height="180dp"
-                        android:layout_marginLeft="8dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="8dp"
-                        android:layout_marginBottom="16dp"
-                        android:contentDescription="TODO"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintHorizontal_bias="0.0"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/new_btn_gallery"
-                        app:srcCompat="@color/textColorAccent" />
+                    android:id="@+id/new_img_thumbnail"
+                    android:layout_width="240dp"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:contentDescription="TODO"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/new_btn_gallery"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@color/textColorAccent" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

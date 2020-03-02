@@ -21,7 +21,7 @@
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme" />
 
-        //검색용
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/searchres_layout_box1"
             android:layout_width="match_parent"
@@ -44,7 +44,7 @@
             android:background="@drawable/rounded_layout_primary">
 
             <TextView
-                android:id="@+id/new_text_hashtag"
+                android:id="@+id/new_text_Hashtag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="18dp"
@@ -56,7 +56,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
-                android:id="@+id/new_btn_add_hashtag"
+                android:id="@+id/new_btn_add_Hashtag"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_marginTop="18dp"
@@ -66,7 +66,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/new_list_hashtag"
+                android:id="@+id/new_list_Hashtag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -76,7 +76,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/new_btn_add_hashtag" />
+                app:layout_constraintTop_toBottomOf="@id/new_btn_add_Hashtag" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -91,7 +91,7 @@
             android:background="@drawable/rounded_layout_primary">
 
             <TextView
-                android:id="@+id/searchnumber"
+                android:id="@+id/searchNumber"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="9 results found"
@@ -104,65 +104,71 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-//이미지결과
+
+
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/searchres_layout_box4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
             android:layout_marginRight="16dp"
             android:background="@drawable/rounded_layout_primary">
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/resulthashtag"
+                android:id="@+id/resultHashtag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="16dp"
+
+                app:layout_constraintBottom_toTopOf="@+id/resultImg"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-<!--                app:layout_constraintBottom_toTopof="@+id/resultimage"-->
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/resultimage"
+                android:id="@+id/resultImg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                app:layout_constraintHorizontal_bias="0.516"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/resulthashtag">
+                app:layout_constraintTop_toBottomOf="@id/resultHashtag">
 
                 <ImageButton
-                    android:id="@+id/backbutton"
+                    android:id="@+id/backButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_arrow_back"
+                    android:layout_marginEnd="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintRight_toLeftOf="@+id/new_img_thumbnail"
-                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintLeft_toRLeftOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"/>
+                    app:srcCompat="@drawable/ic_keyboard_arrow_left_black_24dp"
+                    android:background="#00000000" />
 
                 <ImageButton
-                    android:id="@+id/forwardbutton"
+                    android:id="@+id/forwardButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/ic_arrow_forward"
+                    android:layout_marginStart="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintLeft_toRightOf="@+id/new_img_thumbnail"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintBottom_toBottomOf="parent"/>/>
+                    app:srcCompat="@drawable/ic_keyboard_arrow_right_black_24dp"
+                    android:background="#00000000" />
 
                 <ImageView
                     android:id="@+id/new_img_thumbnail"
                     android:layout_width="240dp"
                     android:layout_height="180dp"
+                    android:layout_marginBottom="16dp"
                     android:contentDescription="TODO"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintLeft_toLeftOf="parent"
                     app:layout_constraintRight_toRightOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -172,9 +178,6 @@
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
 
 
     </LinearLayout>
