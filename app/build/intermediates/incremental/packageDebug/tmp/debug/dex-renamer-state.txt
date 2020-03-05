@@ -1,0 +1,4 @@
+#Fri Mar 06 03:09:21 KST 2020
+base.0=/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Linkeep</string>
+    <string name="hashtag">해쉬태그</string>
+    <string name="new_btn_add">추가하기</string>
+    <string name="new_btn_gallery">갤러리</string>
+    <string name="new_btn_paste">붙여넣기 완료</string>
+    <string name="new_btn_webpage">웹 페이지</string>
+    <string name="new_text_newlink">새로운 링크</string>
+    <string name="new_text_thumbnail">미리보기</string>
+</resources>

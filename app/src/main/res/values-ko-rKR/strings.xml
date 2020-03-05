@@ -7,4 +7,5 @@
     <string name="new_btn_add">추가하기</string>
     <string name="new_text_newlink">새로운 링크</string>
     <string name="new_text_thumbnail">미리보기</string>
+    <string name="new_btn_paste">붙여넣기 완료</string>
 </resources>
