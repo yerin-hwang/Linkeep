@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/yerin/.gradle/caches/transforms-2/files-2.1/e1529001cc3f60caa67b576fc6c00231/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.1.0] /Users/yerin/.gradle/caches/transforms-2/files-2.1/5f7755419905c3309eca6a5d2a9625a8/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yerin/.gradle/caches/transforms-2/files-2.1/4230a09911f57cdc0861c58df6cee5e5/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
@@ -27,20 +27,20 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/yerin/.gradle/cach
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/yerin/.gradle/caches/transforms-2/files-2.1/8a6323e0892c2b249370e409828e79a0/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/yerin/.gradle/caches/transforms-2/files-2.1/44635315641ba382408010fa5f648cce/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/yerin/.gradle/caches/transforms-2/files-2.1/601ea328104c0e3c5e130794eab4109c/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
-INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
+INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:3:11-43
 		INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
 		INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml
-		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-36:12
+		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:1-48:12
 		INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:2:11-69
@@ -49,7 +49,7 @@ ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:8:5-34:19
+ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:8:5-46:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yerin/.gradle/caches/transforms-2/files-2.1/4230a09911f57cdc0861c58df6cee5e5/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/yerin/.gradle/caches/transforms-2/files-2.1/4230a09911f57cdc0861c58df6cee5e5/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] /Users/yerin/.gradle/caches/transforms-2/files-2.1/ad0ffc5cd855447ee0e38652eee2153d/core-1.1.0/AndroidManifest.xml:24:5-89
@@ -84,14 +84,22 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:19:17-76
 	android:name
 		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:19:27-74
-activity#ewha.appsolute.linkeep.:qNewLinkActivity
+activity#ewha.appsolute.linkeep.NewLinkActivity
 ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:22:9-27:20
 	android:name
-		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:22:19-52
-activity#ewha.appsolute.linkeep.HashtagActivity
+		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:22:19-50
+activity#ewha.appsolute.linkeep.SearchActivity
 ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:28:9-33:20
 	android:name
-		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:28:19-50
+		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:28:19-49
+activity#ewha.appsolute.linkeep.SearchResultActivity
+ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:34:9-39:20
+	android:name
+		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:34:19-55
+activity#ewha.appsolute.linkeep.HashtagActivity
+ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:40:9-45:20
+	android:name
+		ADDED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml:40:19-50
 uses-sdk
 INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/AndroidManifest.xml

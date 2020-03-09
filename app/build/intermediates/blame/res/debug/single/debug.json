@@ -100,6 +100,10 @@
         "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/res/merged/debug/layout_item_hashtag.xml.flat",
+        "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/layout/item_hashtag.xml"
+    },
+    {
         "merged": "/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
         "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     },
@@ -108,8 +112,16 @@
         "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/res/merged/debug/drawable_rounded_layout_hashtag.xml.flat",
+        "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/drawable/rounded_layout_hashtag.xml"
+    },
+    {
         "merged": "/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/res/merged/debug/drawable_ic_arrow_back.xml.flat",
         "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/res/merged/debug/layout_fragment_hashtag.xml.flat",
+        "source": "/Users/yerin/AndroidStudioProjects/Linkeep/app/src/main/res/layout/fragment_hashtag.xml"
     },
     {
         "merged": "/Users/yerin/AndroidStudioProjects/Linkeep/app/build/intermediates/res/merged/debug/drawable_ic_add_arrow.xml.flat",

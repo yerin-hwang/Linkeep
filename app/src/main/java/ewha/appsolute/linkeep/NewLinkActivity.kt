@@ -7,20 +7,28 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.recyclerview.widget.GridLayoutManager
 import kotlinx.android.synthetic.main.activity_new_link.*
 
 class NewLinkActivity : AppCompatActivity() {
 
     private val GET_GALLERY_IMAGE = 200
+    private val SEARCH_HASHTAGS = 300
+//    private val spanCount = 4
+
+//    lateinit var layoutManager:GridLayoutManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_new_link)
+
+//        layoutManager = GridLayoutManager(this, spanCount)
 
         var paste: Button = new_btn_paste_link
         paste.setOnClickListener(View.OnClickListener {
@@ -47,12 +55,23 @@ class NewLinkActivity : AppCompatActivity() {
             }
         })
 
-        var add_hashtag: Button = findViewById<Button>(R.id.new_btn_add_hashtag)
-        add_hashtag.setOnClickListener(View.OnClickListener {
+
+        supportFragmentManager.beginTransaction().run {
+            replace(R.id.new_recyclerview, HashtagRecyclerViewFragment())
+//                commit()
+        }
+//        if (savedInstanceState == null) {
+//        }
+
+
+        var addHashtag: Button = findViewById<Button>(R.id.new_btn_add_hashtag)
+        addHashtag.setOnClickListener(View.OnClickListener {
             //search 화면
-            val next = Intent(this, HashtagActivity::class.java)
-            startActivityForResult(next, 0)
-            //temp request code
+//            val next = Intent(this, SearchActivity::class.java)
+//            startActivityForResult(next, SEARCH_HASHTAGS)
+//            new_list_hashtag
+
+
         })
 
         var gallery: ConstraintLayout = findViewById<ConstraintLayout>(R.id.new_btn_gallery)
